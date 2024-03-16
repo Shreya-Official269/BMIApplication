@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:id="@+id/llmain"
+    android:background="@color/purple_200"
+    tools:context=".MainActivity">
+
+   <EditText
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:ems="10"
+       android:hint="@string/hint_wt"
+       android:background="@color/Yellow"
+       android:id="@+id/edtweight"
+       android:inputType="number"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:background="@color/Yellow"
+        android:hint="@string/hint_htf"
+        android:layout_marginTop="10sp"
+        android:id="@+id/edtHeightft"
+        android:inputType="number"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:background="@color/Yellow"
+        android:layout_marginTop="10sp"
+        android:hint="@string/hint_hti"
+        android:id="@+id/edtHeightIn"
+        android:inputType="number"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hint_calcbmi"
+        android:layout_marginTop="10sp"
+        android:backgroundTint="@color/teal_700"
+        android:id="@+id/CalculateBMI"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvresult"
+        android:textSize="21sp"
+        android:hint="@string/hint_result"
+        android:textStyle="bold"
+        android:layout_marginTop="3dp"
+        android:textColor="@color/black"/>
+
+
+
+
+
+
+</LinearLayout>
